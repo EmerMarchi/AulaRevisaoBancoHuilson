@@ -17,7 +17,7 @@ fun menu(){
 
         when (opcao) {
             0 -> println("Adeus amigo!")
-            1 -> cadastrarCaixa()
+            1 -> cadastrarCaixa(0) //Sempre que for cadastrar uma caixa nova o ID será 0
             2 -> editarCaixa()
             3 -> listarCaixas()
             4 -> excluirCaixa()
