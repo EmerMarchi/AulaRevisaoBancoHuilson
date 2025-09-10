@@ -158,7 +158,7 @@ fun cadastrarCaixa(id : Int){
         salvar.setString(11, c.preco.toString())
         salvar.executeUpdate()//Isso fará um COMMIT
     }else{
-        val sql = "UPDATE FROM CaixaDAgua SET " +
+        val sql = "UPDATE CaixaDAgua SET " +
                 " capacidade = ?, " +
                 " material = ?, " +
                 " formato = ?, " +
